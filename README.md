@@ -19,15 +19,15 @@ This signifies that the first email is in thread 1 and its position in that thre
 The third email is in the thread 1, position 2.
 
 ### Function Desciption:
-Complete the function <b>func getEmailThreads(emails: [String]) -> [[Int]]</b>.
-The function must return a 2D array.
-getEmailThreads has the following paramester(s):
+- Complete the function <b>func getEmailThreads(emails: [String]) -> [[Int]]</b>.
+- The function must return a 2D array.
+- getEmailThreads has the following paramester(s):
 emails string[]: an array of strings
 
 ### Constraints:
-1 <= n <= 700
-The maximum length of a mail won't exceed 200.
-The email body will contain only lowercase English letters, blank space, commas, period and question mark with "---" as a delimiter.
-The sender's and reciver's email addresses will contain only lowercase English letters, at the rate (@) sign, and peried.
+- 1 <= n <= 700
+- The maximum length of a mail won't exceed 200.
+- The email body will contain only lowercase English letters, blank space, commas, period and question mark with "---" as a delimiter.
+- The sender's and reciver's email addresses will contain only lowercase English letters, at the rate (@) sign, and peried.
 
 ## 2. Sort The Summary
