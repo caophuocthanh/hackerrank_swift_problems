@@ -18,8 +18,8 @@ Implement a solotion to group emails in to threads. It should return a 2-dimensi
 
 ### Function Desciption:
 - Complete the function <b>func getEmailThreads(emails: [String]) -> [[Int]]</b>.
--- The function must return a 2D array.
--- getEmailThreads has the following paramester(s):
+- The function must return a 2D array.
+- getEmailThreads has the following paramester(s):
 emails string[]: an array of strings
 
 ### Constraints:
@@ -42,5 +42,4 @@ Given an array of integers, create a 2-dimensional array where the first element
 ### Function Desciption
 - Complete the function <b>func groupSort(arr: [Int]) -> [[Int]]</b>
 - groupSort has the fowlowing paramester(s):
--- int arr[n]: an array of intergers
---
+- int arr[n]: an array of intergers
