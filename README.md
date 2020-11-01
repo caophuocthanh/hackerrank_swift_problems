@@ -75,12 +75,12 @@ Given an integer array, all items repeat 5 times except for just one item that a
 find this single item.
 
 ### Example 1.
-INPUT: [1, 1, 0, 1, 1, 1]
-OUTPUT: 0
+- INPUT: [1, 1, 0, 1, 1, 1]
+- OUTPUT: 0
 
 ### Example 2.
-INPUT: [3, 1, 3, 1, 1, 3, 3, 5, 1, 3, 1]
-OUTPUT: 5
+- INPUT: [3, 1, 3, 1, 1, 3, 3, 5, 1, 3, 1]
+- OUTPUT: 5
 
 ### Constraints
 - Input array is always non empty.
