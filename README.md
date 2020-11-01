@@ -7,13 +7,13 @@ A company needs to create mechanism to group emails into threads. They know that
 Implement a solotion to group emails in to threads. It should return a 2-dimensional array with the thread number of each email and its position in the thread, as integers. Thread numbers start at 1.
 
 ### Example:
-n = 3
+n = 3 <br>
 emails = [
             "alex@gmail.com,sam@gmail.com,Are you back from vaction?",
             "chris@gmail.com,robin@gmail.com,did you get the key?",
             "sam@gmail.com,alex@gmail.com,Just got in.---Are you back from vaction?"
          ]
-
+<br>
 There are 2 threads in the emails. In this case, the output should be [(1,1),(2,1),(1,2)].
 This signifies that the first email is in thread 1 and its position in that thread is 1.
 The third email is in the thread 1, position 2.
