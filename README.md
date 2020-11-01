@@ -18,8 +18,8 @@ Implement a solotion to group emails in to threads. It should return a 2-dimensi
 
 ### Function Desciption:
 - Complete the function <b>func getEmailThreads(emails: [String]) -> [[Int]]</b>.
-- The function must return a 2D array.
-- getEmailThreads has the following paramester(s):
+-- The function must return a 2D array.
+-- getEmailThreads has the following paramester(s):
 emails string[]: an array of strings
 
 ### Constraints:
@@ -29,3 +29,18 @@ emails string[]: an array of strings
 - The sender's and reciver's email addresses will contain only lowercase English letters, at the rate (@) sign, and peried.
 
 ## 2. Sort The Summary
+
+### Problem
+Given an array of integers, create a 2-dimensional array where the first element is a diction value from the array and the second element is that value's frequency within the array. Sort the resulting array desending by frequency, the should be sorted ascending.
+
+### Example
+- arr = [3,3,1,2,1]
+- There are two values, 3 and 1, each with a frequency of 2, and on value 2 with a frequency of 1: [[3,2],[1,2],[2,1]]
+- Sort the 2-dimensional array descending by frequency: [[3,2],[1,2],[2,1]]
+- Sort the 2-dimensional array ascending by value for values with matching frequencies: [[1,2,[3,2],[2,1]]]
+
+### Function Desciption
+- Complete the function <b>func groupSort(arr: [Int]) -> [[Int]]</b>
+- groupSort has the fowlowing paramester(s):
+-- int arr[n]: an array of intergers
+--
