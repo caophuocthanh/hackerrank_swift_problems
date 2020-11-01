@@ -3,7 +3,7 @@
 ## 1. Email Thread
 
 ### Problem:
-A company needs to create mechanism to group emails into threads. They know that grouing by the subject line is umreliable. They want to compare body text instead. The sender and receiver in a thread must also reverse. The emails com in as single string each. The sender is before the first comma and the receiver is from there to the second comma. The message body is what remains after the second comma. The current message is followed by quoted messages, in reverse chronological order and lelimited with "---".
+A company needs to create mechanism to group emails into threads. They know that grouping by the subject line is umreliable. They want to compare body text instead. The sender and receiver in a thread must also reverse. The emails com in as single string each. The sender is before the first comma and the receiver is from there to the second comma. The message body is what remains after the second comma. The current message is followed by quoted messages, in reverse chronological order and lelimited with "---".
 Implement a solotion to group emails in to threads. It should return a 2-dimensional array with the thread number of each email and its position in the thread, as integers. Thread numbers start at 1.
 
 ### Example:
