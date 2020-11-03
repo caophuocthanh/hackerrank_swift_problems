@@ -34,11 +34,11 @@ func getEmailThreads(emails: [String]) -> [[Int]] {
     
     for email in emails {
         
-        var components = email.components(separatedBy: ",")
+        var components: [String] = email.components(separatedBy: ",")
         
         // get sender and receiver
-        let sender = components[0]
-        let receiver = components[1]
+        let sender: String = components[0]
+        let receiver: String = components[1]
         
         // remove sender and reciver from components
         components.removeFirst()
@@ -68,10 +68,8 @@ func getEmailThreads(emails: [String]) -> [[Int]] {
     return result
 }
 
-let result = getEmailThreads(emails: ["abc@gmail.com,x@gmail.com,hello guy",
-                                      "c@asdas.com,abc@gmail.com,askfjlasfj",
-                                      "x@gmail.com,abc@gmail.com,howareasdasd---ádhaskdjhags---ádasdasd---hello guy",
-                                      "x@gmail.com,abc@gmail.com,howareasdasd---hello guy",
-                                      "x@gmail.com,abc@gmail.com,howareasdasd---hello guy"
-])
-print(result)
+let result1 = getEmailThreads(emails: ["alex@gmail.com,sam@gmail.com,Are you back from vaction?",
+                                       "chris@gmail.com,robin@gmail.com,did you get the key?",
+                                       "sam@gmail.com,alex@gmail.com,Just got in.---Are you back from vaction?"])
+
+print(result1)
